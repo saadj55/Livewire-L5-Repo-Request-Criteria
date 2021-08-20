@@ -1,0 +1,24 @@
+{
+  "name": "saadj55/livewire-request-criteria",
+  "description": "Livewire-L5-Repo-Request-Criteria",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["laravel", "livewire", "l5", "l5-repository", "request-criteria", "request", "criteria"],
+  "authors": [
+    {
+      "name": "Saad Nasir Siddique",
+      "email": "saadj55@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2.5|^8.0",
+    "illuminate/http": "~5.0|~6.0|~7.0|^8.0",
+    "prettus/l5-repository": "^2.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Saadj55\\Traits\\WithRequestCriteria\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}
