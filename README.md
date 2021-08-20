@@ -1,6 +1,6 @@
 # Livewire-L5-Repo-Request-Criteria
 
-#Usage
+# Usage
 
 - `use` the  `WithRequestCriteria` in your Livewire component.
 
