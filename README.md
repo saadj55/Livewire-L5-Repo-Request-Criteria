@@ -4,13 +4,14 @@
 
 - `use` the  `WithRequestCriteria` in your Livewire component.
 
-```
+```php
     <?php
        
        namespace App\Http\Livewire;
        
        use Livewire\Component;
        use Livewire\WithPagination;
+       use Saadj55\Traits\WithRequestCriteria;
        use Prettus\Repository\Criteria\RequestCriteria;
        
        class LivewireComponentWithRequestCriteria extends Component
@@ -26,12 +27,13 @@
 ```
 
 - Call `$this->getRequestCriteria()` to get an instance of the L5-Repository's `RequestCriteria`
-```
+```php
     <?php
        
        namespace App\Http\Livewire;
        
        use Livewire\Component;
+       use Saadj55\Traits\WithRequestCriteria;
        use Livewire\WithPagination;
        use Prettus\Repository\Criteria\RequestCriteria;
        
@@ -48,12 +50,13 @@
 ```
 
 - Pass the requestCriteria to `pushCriteria`
-```
+```php
     <?php
        
        namespace App\Http\Livewire;
        
        use Livewire\Component;
+       use Saadj55\Traits\WithRequestCriteria;
        use Livewire\WithPagination;
        use Prettus\Repository\Criteria\RequestCriteria;
        
