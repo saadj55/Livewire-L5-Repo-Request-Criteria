@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Saadj55\\Traits\\WithRequestCriteria\\": "src/Saadj55/Traits"
+      "Saadj55\\Traits\\": "src/Saadj55/Traits"
     }
   },
   "minimum-stability": "stable"
