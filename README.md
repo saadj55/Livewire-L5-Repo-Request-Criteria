@@ -2,7 +2,7 @@
 
 # Usage
 
-- `use` the  `WithRequestCriteria` in your Livewire component.
+- `use` the  `WithRequestCriteria` trait in your Livewire component.
 
 ```php
     <?php
